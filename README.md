@@ -209,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1925-count-square-sum-triples](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/1925-count-square-sum-triples) |
 | [2348-number-of-zero-filled-subarrays](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2965-find-missing-and-repeated-values](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/2965-find-missing-and-repeated-values) |
+| [3870-count-commas-in-range](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/3870-count-commas-in-range) |
 ## Array
 |  |
 | ------- |
