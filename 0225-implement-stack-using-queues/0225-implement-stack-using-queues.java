@@ -14,7 +14,7 @@ class MyStack {
         // Step 2: Rotate all previous elements behind the new element
         // This makes the newly added element come to the front,
         // which mimics stack's LIFO behavior
-        for (int i = 0; i < q.size() - 1; i++) {
+        for (int i = 1; i <= q.size() - 1; i++) {
             q.offer(q.poll());  // remove from front and add to rear
         }
     }
