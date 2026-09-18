@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0214-shortest-palindrome](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0214-shortest-palindrome) |
 | [0242-valid-anagram](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0257-binary-tree-paths) |
+| [0282-expression-add-operators](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0282-expression-add-operators) |
 | [0290-word-pattern](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0344-reverse-string) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0279-perfect-squares) |
+| [0282-expression-add-operators](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0282-expression-add-operators) |
 | [0343-integer-break](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0343-integer-break) |
 | [0368-largest-divisible-subset](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0368-largest-divisible-subset) |
 | [0371-sum-of-two-integers](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0371-sum-of-two-integers) |
@@ -837,6 +839,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0257-binary-tree-paths) |
+| [0282-expression-add-operators](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0494-target-sum) |
 ## Number Theory
 |  |
