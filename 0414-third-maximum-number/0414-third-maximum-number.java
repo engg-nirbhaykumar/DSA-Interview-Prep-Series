@@ -1,28 +1,27 @@
 class Solution {
+
     public int thirdMax(int[] nums) {
-        long max1 = Long.MIN_VALUE;
-        long max2 = Long.MIN_VALUE;
-        long max3 = Long.MIN_VALUE;
+        long maxm1 = Long.MIN_VALUE;
+        long maxm2 = Long.MIN_VALUE;
+        long maxm3 = Long.MIN_VALUE;
 
         for (int num : nums) {
 
-            // Skip duplicates
-            if (num == max1 || num == max2 || num == max3) {
+            if (num == maxm1 || num == maxm2 || num == maxm3) {
                 continue;
             }
-
-            if (num > max1) {
-                max3 = max2;
-                max2 = max1;
-                max1 = num;
-            } else if (num > max2) {
-                max3 = max2;
-                max2 = num;
-            } else if (num > max3) {
-                max3 = num;
+            if (num > maxm1) {
+                maxm3 = maxm2;
+                maxm2 = maxm1;
+                maxm1 = num;
+            } else if (num > maxm2) {
+                maxm3 = maxm2;
+                maxm2 = num;
+            } else if (num > maxm3) {
+                maxm3 = num;
             }
         }
 
-        return max3 == Long.MIN_VALUE ? (int) max1 : (int) max3;
+        return maxm3 == Long.MIN_VALUE ? (int) maxm1 : (int) maxm3;
     }
 }
