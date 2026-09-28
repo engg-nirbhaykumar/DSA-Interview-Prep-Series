@@ -1,15 +1,13 @@
 class Solution {
-    public int removeElement(int[] nums, int val) {
-        int i = 0; // pointer for the new array
 
+    public int removeElement(int[] nums, int val) {
+        int i = 0;
         for (int j = 0; j < nums.length; j++) {
-            // Only keep elements not equal to val
             if (nums[j] != val) {
-                nums[i] = nums[j];
-                i++;
+                nums[i++] = nums[j];
             }
         }
 
-        return i; // new length of the array
+        return i;
     }
 }
