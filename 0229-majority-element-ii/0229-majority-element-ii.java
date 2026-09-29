@@ -1,62 +1,62 @@
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
-        // Result list to store elements appearing more than n/3 times
-        List<Integer> result = new ArrayList<>();
 
-        // Step 1: Find potential majority candidates using Boyer–Moore Voting
-        int candidate1 = 0, candidate2 = 0; // Possible majority elements
-        int count1 = 0, count2 = 0; // Counters for candidates
+        int n = nums.length;
 
+        int candidate1 = 0;
+        int candidate2 = 0;
+
+        int count1 = 0;
+        int count2 = 0;
+
+        // Phase 1: Find possible candidates
         for (int num : nums) {
-            // If first candidate slot is empty, assign current number
+
             if (count1 == 0 && num != candidate2) {
                 candidate1 = num;
                 count1 = 1;
             }
 
-            // If second candidate slot is empty, assign current number
-            else if (count2 == 0 && num != candidate1) {
+            else if (count2 == 0 && candidate1 != num) {
                 candidate2 = num;
                 count2 = 1;
             }
 
-            // If current number matches first candidate, increase its count
             else if (candidate1 == num) {
                 count1++;
             }
 
-            // If current number matches second candidate, increase its count
             else if (candidate2 == num) {
                 count2++;
             }
 
-            // Current number matches neither candidate → cancel both counts
             else {
                 count1--;
                 count2--;
             }
         }
 
-        // Step 2: Verify actual frequency of candidates
-        // (Because Boyer–Moore only gives potential candidates)
+        // Phase 2: Verify candidates
         count1 = 0;
         count2 = 0;
 
         for (int num : nums) {
-            if (num == candidate1)
+            if (num == candidate1) {
                 count1++;
-            else if (num == candidate2)
+            } else if (num == candidate2) {
                 count2++;
+            }
         }
 
-        // Threshold for majority (> n/3)
-        int threshold = nums.length / 3;
+        List<Integer> result = new ArrayList<>();
 
-        // Add candidates to result only if they exceed threshold
-        if (count1 > threshold)
+        if (count1 > n / 3) {
             result.add(candidate1);
-        if (count2 > threshold)
+        }
+
+        if (count2 > n / 3) {
             result.add(candidate2);
+        }
 
         return result;
     }
