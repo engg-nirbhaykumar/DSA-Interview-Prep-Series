@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0355-design-twitter](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0355-design-twitter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0409-longest-palindrome) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0343-integer-break](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0343-integer-break) |
 | [0368-largest-divisible-subset](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0368-largest-divisible-subset) |
 | [0371-sum-of-two-integers](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0371-sum-of-two-integers) |
+| [0380-insert-delete-getrandom-o1](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [0509-fibonacci-number](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0509-fibonacci-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1512-number-of-good-pairs](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/1512-number-of-good-pairs) |
@@ -303,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0354-russian-doll-envelopes](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0354-russian-doll-envelopes) |
 | [0368-largest-divisible-subset](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0368-largest-divisible-subset) |
+| [0380-insert-delete-getrandom-o1](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [0410-split-array-largest-sum](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0410-split-array-largest-sum) |
 | [0414-third-maximum-number](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0414-third-maximum-number) |
 | [0416-partition-equal-subset-sum](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0416-partition-equal-subset-sum) |
@@ -1018,6 +1021,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0355-design-twitter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0380-insert-delete-getrandom-o1) |
 | [0460-lfu-cache](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0460-lfu-cache) |
 | [0535-encode-and-decode-tinyurl](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0535-encode-and-decode-tinyurl) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -1245,4 +1249,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0274-h-index](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0274-h-index) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/engg-nirbhaykumar/interview-prep-dsa/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
